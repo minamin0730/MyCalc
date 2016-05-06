@@ -2,8 +2,8 @@
 //  ResultViewController.swift
 //  MyCalc
 //
-//  Created by 岡田みなみ on 2016/05/06.
-//  Copyright © 2016年 岡田みなみ. All rights reserved.
+//  Created by minamin on 2016/05/06.
+//  Copyright © 2016年 minamin. All rights reserved.
 //
 
 import UIKit

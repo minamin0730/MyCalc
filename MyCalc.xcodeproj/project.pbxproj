@@ -98,11 +98,10 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = "岡田みなみ";
+				ORGANIZATIONNAME = Minamin;
 				TargetAttributes = {
 					E91DB6741CDB7F1E007E05D3 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = 9HA63Z44P3;
 					};
 				};
 			};
@@ -261,7 +260,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MyCalc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = MinamiOkada.MyCalc;
+				PRODUCT_BUNDLE_IDENTIFIER = Minamin.MyCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -273,7 +272,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MyCalc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = MinamiOkada.MyCalc;
+				PRODUCT_BUNDLE_IDENTIFIER = Minamin.MyCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -297,6 +296,7 @@
 				E91DB6891CDB7F1E007E05D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

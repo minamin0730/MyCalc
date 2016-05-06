@@ -2,8 +2,8 @@
 //  PercentViewController.swift
 //  MyCalc
 //
-//  Created by 岡田みなみ on 2016/05/06.
-//  Copyright © 2016年 岡田みなみ. All rights reserved.
+//  Created by minamin on 2016/05/06.
+//  Copyright © 2016年 minamin. All rights reserved.
 //
 
 import UIKit
@@ -14,7 +14,7 @@ class PercentViewController: UIViewController {
     
     //割引％入力フィールド
     @IBOutlet weak var percentField: UITextField!
-  
+    //押されたボタンを取得して表示に反映させる
     @IBAction func tapNumberButton(sender: UIButton) {
         let pushedButtonNumber = sender.titleLabel!.text
         let value = percentField.text! + pushedButtonNumber!

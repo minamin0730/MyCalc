@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  MyCalc
 //
-//  Created by 岡田みなみ on 2016/05/05.
-//  Copyright © 2016年 岡田みなみ. All rights reserved.
+//  Created by minamin on 2016/05/05.
+//  Copyright © 2016年 minamin. All rights reserved.
 //
 
 import UIKit
@@ -34,9 +34,13 @@ class ViewController: UIViewController {
         }
     }
     
+    //数字ボタンが押された時
     @IBAction func tapNumberButton(sender: UIButton) {
+        //ボタンに表示されている文字列を取得
         let puchedButtonNumber =  sender.titleLabel!.text
+        //末尾に押された数字を追加する
         let value = priceField.text! + puchedButtonNumber!
+        //文字列型の数字を数値型に変換，変換することで先頭の0を削除
         if let price = Int(value) {
             priceField.text = "\(price)"
         }
